@@ -1,10 +1,10 @@
 import {Button} from '@material-ui/core';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
 		<>
-			<h1>Hello world!</h1>
-      <Button color="primary" variant="contained">Primary BTN</Button>
+			<Navbar />
 		</>
 	);
 };
